@@ -1,0 +1,41 @@
+# --- Secrets & env ---
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# --- Python / ai-service ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Node / backend & frontend ---
+node_modules/
+dist/
+build/
+coverage/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Logs & runtime artifacts ---
+*.log
+*.pid
+uvicorn.out.log
+uvicorn.err.log
+
+# --- Editors / OS ---
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# --- Geospatial outputs ---
+*.tif
+*.tiff
+*.geojson

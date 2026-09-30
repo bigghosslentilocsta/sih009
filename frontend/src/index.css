@@ -1,0 +1,48 @@
+@import 'tailwindcss';
+@import 'leaflet/dist/leaflet.css';
+
+/* --------------------------------------------------------------------------
+   SIH 26009 design tokens (Tailwind v4 CSS-first configuration)
+   -------------------------------------------------------------------------- */
+@theme {
+  --color-brand-50: #eef7ff;
+  --color-brand-100: #d9ecff;
+  --color-brand-500: #2b6cb0;
+  --color-brand-600: #245a94;
+  --color-brand-700: #1d4776;
+
+  --color-manganese-500: #6b7280;
+  --color-ore-500: #a16207;
+  --color-ore-600: #854d0e;
+
+  --color-surface: #0f172a;
+  --color-surface-muted: #1e293b;
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    @apply h-full;
+  }
+
+  body {
+    @apply bg-slate-100 text-slate-800 antialiased;
+    font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  }
+}
+
+@layer components {
+  .card {
+    @apply rounded-xl border border-slate-200 bg-white p-5 shadow-sm;
+  }
+
+  .card-title {
+    @apply text-sm font-semibold tracking-wide text-slate-500 uppercase;
+  }
+}
+
+/* Leaflet container must have an explicit height or the map renders blank. */
+.leaflet-container {
+  @apply h-full w-full;
+}

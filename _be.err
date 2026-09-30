@@ -1,0 +1,32 @@
+[weather] falling back to a synthetic forecast: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[weather] falling back to a synthetic forecast: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[weather] falling back to a synthetic forecast: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[error] Error: Cannot reach the analysis service at http://localhost:8000.
+    at translateError (file:///D:/projects1/sih009/backend/src/services/aiClient.js:30:15)
+    at analyzeZone (file:///D:/projects1/sih009/backend/src/services/aiClient.js:62:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async file:///D:/projects1/sih009/backend/src/routes/exploration.routes.js:37:20 {
+  status: 503
+}
+[weather] falling back to a synthetic forecast: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[error] Error: Cannot reach the analysis service at http://localhost:8000.
+    at translateError (file:///D:/projects1/sih009/backend/src/services/aiClient.js:30:15)
+    at aiRiskAssessment (file:///D:/projects1/sih009/backend/src/services/aiClient.js:95:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async buildForecast (file:///D:/projects1/sih009/backend/src/services/operationsService.js:88:16)
+    at async file:///D:/projects1/sih009/backend/src/routes/operations.routes.js:47:21 {
+  status: 503
+}
+[weather] falling back to a synthetic forecast: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[error] Error: Cannot reach the analysis service at http://localhost:8000.
+    at translateError (file:///D:/projects1/sih009/backend/src/services/aiClient.js:30:15)
+    at aiRiskAssessment (file:///D:/projects1/sih009/backend/src/services/aiClient.js:95:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async buildForecast (file:///D:/projects1/sih009/backend/src/services/operationsService.js:88:16)
+    at async file:///D:/projects1/sih009/backend/src/routes/operations.routes.js:47:21 {
+  status: 503
+}
+[weather] falling back to a synthetic forecast: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[executive] risk assessment unavailable: Cannot reach the analysis service at http://localhost:8000.
+[weather] falling back to a synthetic forecast: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[executive] risk assessment unavailable: Cannot reach the analysis service at http://localhost:8000.

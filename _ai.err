@@ -1,0 +1,6 @@
+INFO:     Started server process [16516]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+*** Earth Engine *** Share your feedback by taking our Annual Developer Satisfaction Survey: https://google.qualtrics.com/jfe/form/SV_9oS0DRcPvElRMNw?source=python
+2026-09-29 21:29:06,857 | INFO     | app.services.gee_client | Earth Engine initialised with project 'gen-lang-client-0167226131'
